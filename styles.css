@@ -8,13 +8,15 @@
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
+    background-color: #1b2e3f;
     color: #333;
     direction: rtl;
+
 }
 
 /* Header */
 header {
-    background-color: #3a4e5f; 
+    background-color: #1b2e3f;
     color: #fff;
     padding: 30px 0;
     text-align: center;
@@ -33,7 +35,7 @@ header h1 {
 }
 
 .logo {
-    width: 120px; 
+    width: 120px;
     height: auto;
 }
 
@@ -65,6 +67,8 @@ nav ul li a:hover {
 .section {
     padding: 40px 20px;
     margin-bottom: 30px;
+    margin: 20px 10px;
+
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -82,6 +86,7 @@ nav ul li a:hover {
 /* Specific style for the about section */
 #about {
     padding: 40px 20px;
+    margin: 20px 10px;
     text-align: center;
 }
 
@@ -110,8 +115,15 @@ nav ul li a:hover {
 }
 
 @keyframes fadeIn {
-    0% { opacity: 0; transform: translateY(20px); }
-    100% { opacity: 1; transform: translateY(0); }
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 /* Container */
@@ -260,7 +272,7 @@ footer p {
     }
 
     .card {
-        width: 80%; 
+        width: 80%;
     }
 
     .container {
@@ -269,6 +281,7 @@ footer p {
 
     .section-title {
         font-size: 2rem;
+
     }
 
     .contact-info {
