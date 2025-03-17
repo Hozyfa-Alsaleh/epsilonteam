@@ -224,6 +224,8 @@ footer p {
 
 .contact-item a {
     color: #1a3d6d;
+    color: #1a3d6d;
+
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
